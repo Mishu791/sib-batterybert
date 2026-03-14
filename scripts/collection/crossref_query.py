@@ -40,7 +40,7 @@ def normalize_paper(item):
     except Exception as e:
         return None
 
-def query_crossref(query, from_year=2015, to_year=2024):
+def query_crossref(query, from_year=2015, to_year=2025):
     results = []
     offset = 0
     rejected = 0
